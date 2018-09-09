@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DDL\" />
+    <Folder Include="DML\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NHibernate" Version="5.1.3" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.109.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ORMHowTo.Infrastructure\ORMHowTo.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

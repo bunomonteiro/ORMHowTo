@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DDL\" />
+    <Folder Include="DML\" />
+    <Folder Include="DQL\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ORMHowTo.Infrastructure\ORMHowTo.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
